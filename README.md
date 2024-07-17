@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+//What is useReducer?
+
+(1)Alternative way for setting state for complex,more related pieces of state.
+(2)Stores related pieces of state in a state object.
+(3)It needs a dispatch function to hold all the logic for updating the state.
+(4)Reducer fucntion takes current state and return new state based on action.Action object is passed through dispatch function.
+
+//When to use useReducer?
+(1)When we have more than 1 piece of states that are related to each other.
+(2)When 3 or 4 pieces of state including objects update together it is better to use useReducer.
+(3)If there are too many even handler functions for update state, better to use useReducer.
